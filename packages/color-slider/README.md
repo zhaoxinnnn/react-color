@@ -19,7 +19,12 @@ npm i @uiw/react-color-slider
 import Slider from '@uiw/react-color-slider';
 
 function Demo() {
-  const [hsva, setHsva] = useState({ h: 0, s: 0, v: 68, a: 1 });
+  const [hsva, setHsva] = useState({
+    "h": 226.73076923076923,
+    "s": 0.48148148148148145,
+    "l": 0.4235294117647059,
+    "a": 1
+});
   return (
     <Slider
       color={hsva}
